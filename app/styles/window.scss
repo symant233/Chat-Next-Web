@@ -13,7 +13,7 @@
   overflow: hidden;
 
   .window-header-main-title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -33,4 +33,14 @@
 
 .window-action-button:not(:first-child) {
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .window-header {
+    padding: 8px 12px;
+  }
+
+  .window-action-button button {
+    padding: 14px;
+  }
 }
